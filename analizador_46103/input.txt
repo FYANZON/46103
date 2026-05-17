@@ -1,0 +1,45 @@
+variable saludo = "hola mundo";
+variable nombre = "Juan";
+variable nombre2 = "Martin";
+variable numero = 42;
+variable sinValor;
+variable texto_grande = "BIENVENIDOS AL ANALIZADOR";
+variable prefijo = "Hola, ";
+variable separacion = ", ";
+
+funcion saludar(persona) {
+    resultado = mayusculas(persona);
+    completo = prefijo + resultado;
+    imprimir(completo);
+}
+
+funcion invertirTexto(texto) {
+    invertido = invertir(texto);
+    imprimir(invertido);
+}
+
+funcion medirTexto(texto) {
+    largo = longitud(texto);
+    imprimir(largo);
+}
+
+funcion minusculasTexto(texto) {
+    minusculo = minusculas(texto);
+    imprimir(minusculo);
+}
+
+funcion concatenarNombres(a, b) {
+    completo = a + separacion;
+    completo2 = completo + b;
+    imprimir(completo2);
+}
+
+funcion obtenerSaludo() {
+    devolver saludo;
+}
+
+saludar(nombre);
+invertirTexto(saludo);
+medirTexto(saludo);
+minusculasTexto(texto_grande);
+concatenarNombres(nombre, nombre2);
