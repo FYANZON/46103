@@ -1,0 +1,11 @@
+variable prefijo = "Hola, ";
+
+funcion saludar(persona) {
+    resultado = mayusculas(persona);
+    completo = prefijo + resultado;
+    imprimir(completo);
+}
+
+
+saludar(nombre);
+

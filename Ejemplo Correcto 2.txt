@@ -1,0 +1,28 @@
+variable texto_grande = "BIENVENIDOS AL ANALIZADOR";
+variable separacion = ", ";
+variable nombre = "Juan";
+variable nombre2 = "Martin";
+variable saludo = "hola mundo";
+
+funcion medirTexto(texto) {
+    largo = longitud(texto);
+    imprimir(largo);
+}
+
+funcion minusculasTexto(texto) {
+    minusculo = minusculas(texto);
+    imprimir(minusculo);
+}
+
+funcion concatenarNombres(a, b) {
+    completo = a + separacion;
+    completo2 = completo + b;
+    imprimir(completo2);
+}
+
+funcion obtenerSaludo() {
+    devolver saludo;
+}
+medirTexto(saludo);
+minusculasTexto(texto_grande);
+concatenarNombres(nombre, nombre2);

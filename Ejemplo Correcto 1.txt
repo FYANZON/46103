@@ -1,0 +1,17 @@
+variable saludo = "hola mundo";
+variable nombre = "Juan";
+variable prefijo = "Hola, ";
+
+funcion saludar(persona) {
+    resultado = mayusculas(persona);
+    completo = prefijo + resultado;
+    imprimir(completo);
+}
+
+funcion invertirTexto(texto) {
+    invertido = invertir(texto);
+    imprimir(invertido);
+}
+
+saludar(nombre);
+invertirTexto(saludo);
